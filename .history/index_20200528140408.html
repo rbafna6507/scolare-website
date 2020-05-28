@@ -12,7 +12,14 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel = "icon" type = "img/png" href = "actualsidebrain.png" style= "width: 5px; height: 10px">
 		<noscript></noscript><link rel="stylesheet" href="assets/css/noscript.css"/>
-	</head>
+		<style>
+			.formName {
+				font-family:Arial, Helvetica, sans-serif;
+				font-size: 20px;
+				font-weight:
+
+			}
+		</style>
 	<body class="is-preload">
 
 		<!-- Sidebar -->
@@ -40,8 +47,8 @@
 									<img src = "actualsidebrain.png" style="width: 50px; height: 60px; position: relative; margin: 0">
 									<h2 id = "title" style="width: 100px; font-size: 60px; position: relative; right: 10px; color: #3d405b">Scolare</h2>
 								</div>
-								<h2 id = "ohmygersh" style = "color: #3d405b; position: relative; margin-top: -25px; font-weight: lighter; margin-bottom: 28px; width: 155px; margin-right: 0px;" >/ˈskälər/</h2>
-									<p style = "color: #3d405b; width: 100%; font-size: 24px;">
+								<h2 id = "ohmygersh" style = "color: #3d405b; position: relative; margin-top: -25px; font-weight: lighter; margin-bottom: 28px; width: 125px; margin-right: 0px;" >/ˈskälər/</h2>
+									<p style = "color: #3d405b; width: 100%;">
 										Scolare is a soon-to-be 501(c)(3) non-profit 
 										that provides one on one tutoring to 
 										under-resourced or struggling students 
@@ -50,8 +57,8 @@
 										their goals to ultimately empower 
 										other underserved communities. </p>
 									<ul class="actions">
-										<li><a href="#one" id = "goofy" class ="buttongeneral button2 scrolly">LEARN MORE</a></li>
-										<li><a href="#two" id = "shaggy" class ="buttongeneral button2lite scrolly">GET INVOLVED</a></li>
+										<li><a href="#one" id = "goofy" class ="buttongeneral button2">LEARN MORE</a></li>
+										<li><a href="#two" id = "shaggy" class ="buttongeneral button2lite">GET INVOLVED</a></li>
 									</ul>
 							</div>
 						</div>
@@ -126,7 +133,7 @@
 									<p>Our tutors fill out the application below and we notify them once they have been accepted within a week. Then, our tutors are paired with a student that they can help best. They then meet their student over a call at a setup time and help them learn, develop skills, and achieve goals!
 									</p>
 									<ul class="actions">
-										<li><a href="#three" class="buttongeneral button3 scrolly">APPLY</a></li>
+										<li><a href="#three" class="buttongeneral button3">APPLY</a></li>
 									</ul>
 								</div>
 							</div>
@@ -138,7 +145,7 @@
 									<p>Students first fill out the enrollment form below which gives Scolare insight into who they are and what they need help in. Within a week, they get to meet their tutor over email, and a time is setup to meet and be tutored. At this agreed time, the student can start learning online and ask question and recieve feedback in real time through a call.
 									</p>
 									<ul class="actions">
-										<li><a href="#three" class="buttongeneral button3 scrolly">ENROLL</a></li>
+										<li><a href="#three" class="buttongeneral button3">ENROLL</a></li>
 									</ul>
 								</div>
 							</div>
@@ -221,5 +228,32 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
 	</body>
 </html>

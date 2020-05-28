@@ -6,6 +6,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.content {
+	width: 50%;
+	float: right;
+	
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -4193,6 +4199,17 @@ input, select, textarea {
 	}
 }
 
+@media screen and (max-width: 980px) {
+
+	#pleaseibeg {
+		background-image: none;
+	}
+
+	#ihopethisworks {
+		background-image: none;
+	}
+}
+
 @media screen and (max-width: 737px) {
 
 	#goofy {
@@ -4201,28 +4218,4 @@ input, select, textarea {
 
 }
 
-@media screen and (max-width: 1960px) {
-
-	#pleaseibeg {
-		padding-left: 375px;
-		width: 100%
-	}
-
-	#ihopethisworks {
-		padding-left: 375px;
-		width: 100%;
-	}
-}
-
-@media screen and (max-width: 980px) {
-
-	#pleaseibeg {
-		background-image: none;
-		padding-left: 1px;
-	}
-
-	#ihopethisworks {
-		background-image: none;
-		padding-left: 1px;
-	}
-}
+@media screen and 

@@ -4218,11 +4218,11 @@ input, select, textarea {
 
 	#pleaseibeg {
 		background-image: none;
-		padding-left: 1px;
+		padding-left: none;
 	}
 
 	#ihopethisworks {
 		background-image: none;
-		padding-left: 1px;
+		padding-left: none;
 	}
 }

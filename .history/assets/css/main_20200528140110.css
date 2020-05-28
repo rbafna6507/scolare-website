@@ -4193,6 +4193,17 @@ input, select, textarea {
 	}
 }
 
+@media screen and (max-width: 980px) {
+
+	#pleaseibeg {
+		background-image: none;
+	}
+
+	#ihopethisworks {
+		background-image: none;
+	}
+}
+
 @media screen and (max-width: 737px) {
 
 	#goofy {
@@ -4210,19 +4221,6 @@ input, select, textarea {
 
 	#ihopethisworks {
 		padding-left: 375px;
-		width: 100%;
-	}
-}
-
-@media screen and (max-width: 980px) {
-
-	#pleaseibeg {
-		background-image: none;
-		padding-left: 1px;
-	}
-
-	#ihopethisworks {
-		background-image: none;
-		padding-left: 1px;
+		width: 100%
 	}
 }

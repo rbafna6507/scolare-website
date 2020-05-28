@@ -4193,6 +4193,17 @@ input, select, textarea {
 	}
 }
 
+@media screen and (max-width: 980px) {
+
+	#pleaseibeg {
+		background-image: none;
+	}
+
+	#ihopethisworks {
+		background-image: none;
+	}
+}
+
 @media screen and (max-width: 737px) {
 
 	#goofy {
@@ -4201,28 +4212,4 @@ input, select, textarea {
 
 }
 
-@media screen and (max-width: 1960px) {
-
-	#pleaseibeg {
-		padding-left: 375px;
-		width: 100%
-	}
-
-	#ihopethisworks {
-		padding-left: 375px;
-		width: 100%;
-	}
-}
-
-@media screen and (max-width: 980px) {
-
-	#pleaseibeg {
-		background-image: none;
-		padding-left: 1px;
-	}
-
-	#ihopethisworks {
-		background-image: none;
-		padding-left: 1px;
-	}
-}
+@media screen and 
