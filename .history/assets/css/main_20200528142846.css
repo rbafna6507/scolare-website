@@ -208,6 +208,10 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			#pleaseibeg {
+				background-position: 6% 50%;
+			}
+
 		}
 
 		@media screen and (max-width: 360px) {
@@ -4212,17 +4216,6 @@ input, select, textarea {
 	#ihopethisworks {
 		padding-left: 375px;
 		width: 100%;
-	}
-}
-
-@media screen and (max-width: 1277px) {
-
-	#pleaseibeg {
-		background-position: -2% 50%;
-	}
-
-	#ihopethisworks {
-		background-position: 4% 30%;
 	}
 }
 

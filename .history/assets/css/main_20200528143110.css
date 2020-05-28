@@ -4220,10 +4220,6 @@ input, select, textarea {
 	#pleaseibeg {
 		background-position: -2% 50%;
 	}
-
-	#ihopethisworks {
-		background-position: 4% 30%;
-	}
 }
 
 @media screen and (max-width: 980px) {

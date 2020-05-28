@@ -4206,23 +4206,12 @@ input, select, textarea {
 	#pleaseibeg {
 		padding-left: 375px;
 		width: 100%;
-		background-position: -9% 50%;
+		background-position: -7% 50%;
 	}
 
 	#ihopethisworks {
 		padding-left: 375px;
 		width: 100%;
-	}
-}
-
-@media screen and (max-width: 1277px) {
-
-	#pleaseibeg {
-		background-position: -2% 50%;
-	}
-
-	#ihopethisworks {
-		background-position: 4% 30%;
 	}
 }
 
