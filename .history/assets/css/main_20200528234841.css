@@ -4242,3 +4242,10 @@ input, select, textarea {
 	}
 }
 
+@media screen and (min-width: 981px) {
+
+	#pleaseibeg {
+		background-size: 36vw 21vw;
+		padding-left: 1px;
+	}
+}

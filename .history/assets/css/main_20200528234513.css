@@ -4170,7 +4170,7 @@ input, select, textarea {
 	}
 
 	img {
-		top: 80px; 
+		top: 96px; 
 		left: -10px;
 	}
 }
@@ -4241,4 +4241,3 @@ input, select, textarea {
 		background-size: 34vw 22vw;
 	}
 }
-
