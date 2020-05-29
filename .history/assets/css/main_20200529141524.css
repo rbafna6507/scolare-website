@@ -3995,28 +3995,6 @@ input, select, textarea {
 
 			}
 
-			@media screen and (max-width: 14850px) {
-
-				#div1 {
-					width: 50%; 
-					float: left; 
-					position: relative; 
-					bottom: 10px; 
-					right: 30px;
-				}
-			}
-
-			@media screen and (max-width: 926px) {
-
-				#intro {
-					background-image: none;
-				}
-			
-				#div1 {
-					width: 100%;
-				}
-			}			
-
 			@media screen and (max-width: 485px) {
 
 				#intro ul {
@@ -4219,17 +4197,6 @@ input, select, textarea {
 	}
 }
 
-@media screen and (max-width: 926px) {
-
-	#intro {
-		background-image: none;
-	}
-
-	#div1 {
-		width: 100%;
-	}
-}
-
 @media screen and (max-width: 1960px) {
 
 	#pleaseibeg {
@@ -4270,3 +4237,23 @@ input, select, textarea {
 	}
 }
 
+@media screen and (max-width: 926px) {
+
+	#intro {
+		background-image: none;
+	}
+
+	#div1 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 14850px) {
+
+	#intro #div1 {
+		float: left; 
+		position: relative; 
+		bottom: 10px; 
+		right: 30px;
+	}
+}

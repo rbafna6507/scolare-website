@@ -3997,7 +3997,7 @@ input, select, textarea {
 
 			@media screen and (max-width: 14850px) {
 
-				#div1 {
+				#intro #div1 {
 					width: 50%; 
 					float: left; 
 					position: relative; 
@@ -4005,17 +4005,6 @@ input, select, textarea {
 					right: 30px;
 				}
 			}
-
-			@media screen and (max-width: 926px) {
-
-				#intro {
-					background-image: none;
-				}
-			
-				#div1 {
-					width: 100%;
-				}
-			}			
 
 			@media screen and (max-width: 485px) {
 
