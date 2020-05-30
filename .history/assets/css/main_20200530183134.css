@@ -83,7 +83,7 @@ input[type=submit] {
 	border: 1px solid #3d405b;
 }
 
-input[type=submit]:hover {
+.button4:hover {
 	background-color: #3d405b;
 	color: #F7F0F5;
 	border: 1px solid #3d405b;

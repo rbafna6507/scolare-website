@@ -77,7 +77,7 @@ section, summary, time, mark, audio, video {
 	border: 1px solid white;
 }
 
-input[type=submit] {
+input[type="submit"] {
 	background-color: #F7F0F5;
 	color: #3d405b;
 	border: 1px solid #3d405b;

@@ -77,15 +77,15 @@ section, summary, time, mark, audio, video {
 	border: 1px solid white;
 }
 
-input[type=submit] {
-	background-color: #F7F0F5;
+.button4 {
+	background-color: #3d405b;
 	color: #3d405b;
 	border: 1px solid #3d405b;
 }
 
-input[type=submit]:hover {
+.button4:hover {
 	background-color: #3d405b;
-	color: #F7F0F5;
+	color: #3d405b;
 	border: 1px solid #3d405b;
 }
 
